@@ -281,13 +281,18 @@ transition-delay:.2s;
     }
     
     /* Ocultamos estos elementos.*/
-    .form-control, .icono-buscar {
+    .icono-buscar {
         visibility: hidden;
-    } 
+    }
+     .input-buscador {
+        display: none;
+     } 
     /*Se ocultan estos elementos.*/
     .btn-buscar {
         display: none;
     }
+
+
 }
 
 @media (min-width: 1024px) { 
